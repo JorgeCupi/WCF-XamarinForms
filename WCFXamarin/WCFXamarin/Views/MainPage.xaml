@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WCFXamarin.Views.MainPage">
+  <ContentPage.Content>
+    <StackLayout>
+      <Label Text="This is a WCF TEST" FontSize="36"/>
+      <Label Text="Binding straight from the Model class" FontSize="32"/>
+      <Label Text="{Binding result.message}" FontSize="24"/>
+      <Label Text="Binding from a property in the ViewModel class" FontSize="32"/>
+      <Label Text="{Binding myProp}" FontSize="24"/>
+      
+    </StackLayout>
+  </ContentPage.Content>
+</ContentPage>
